@@ -45,8 +45,7 @@ function App() {
   }, [password])  
 
   //useEffect hook
-  //passwordGenerator function
-  //when length, numberAllowed, charAllowed changes, call passwordGenerator function
+  //when length, numberAllowed, charAllowed changes: call passwordGenerator function
   useEffect(() => {passwordGenerator()}, [length, numberAllowed, charAllowed, passwordGenerator])
   
   //return statement

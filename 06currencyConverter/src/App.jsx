@@ -29,7 +29,7 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url('https://static.vecteezy.com/system/resources/previews/017/342/599/non_2x/investment-on-usd-currency-the-dollar-is-the-currency-of-usa-that-is-used-to-change-buy-sell-accumulate-and-invest-in-united-kingdom-s-state-people-free-photo.JPGcd ')`,
         }}
     >
         <div className="w-full">
