@@ -8,7 +8,8 @@ import Home from './components/home/Home.jsx'
 import About from './components/about/About.jsx'
 import Contact from './components/contact/Contact.jsx'
 import { User } from './components/user/User.jsx'
-import Github, { githubInfoLoader } from './components/github/Github.jsx'
+import { githubInfoLoader } from './components/github/githubInfoLoader.js'
+import Github from './components/github/Github.jsx'
 
 //complex router
 // const router = createBrowserRouter([
