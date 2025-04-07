@@ -44,9 +44,15 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact/>}/>
+      {/* taking parameters from the user */}
       <Route path='user/:userid' element={<User/>}/>   
       <Route 
-      loader={githubInfoLoader}
+      /*
+      if we want to fetch the data from API or the database we can perform
+      directly calls from here.
+      Data fetch will start before useEffect, when we hover the mouse on the page.
+      */
+      loader={githubInfoLoader} 
       path='github' 
       element={<Github/>}/> 
     </Route>

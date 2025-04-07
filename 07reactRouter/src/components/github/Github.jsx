@@ -1,6 +1,7 @@
 import { useLoaderData } from 'react-router-dom'
 
 const Github = () => {
+    //useLoaderData: return data
     const data = useLoaderData()
     // const [data, setData] = useState([])
     // //API call when the component is mounted
@@ -17,7 +18,7 @@ const Github = () => {
     // }, [])
 
   return (
-    <div classN  ame='text-center m-4 bg-gray-600 text-white p-4 text-3xl'>Github Followers {data.followers}
+    <div classN  ame='text-center m-4 bg-gray-600 text-white p-4 text-3xl'> Github Followers {data.followers}
     <img src={data.avatar_url} alt="dhruvlenka" width={300}></img>
     </div>
 
