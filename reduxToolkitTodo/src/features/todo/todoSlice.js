@@ -5,8 +5,6 @@ const initialState = {
     todos: [{id: 1, text: "Hello world"}]
 }
 
-
-
 export const todoSlice = createSlice({
     //objects 
     name: 'todo', //property
@@ -28,5 +26,6 @@ export const todoSlice = createSlice({
 
 //exporiting functions or functionality
 export const {addTodo, removeTodo} = todoSlice.actions
+
 //exporting the reducer
 export default todoSlice.reducer
